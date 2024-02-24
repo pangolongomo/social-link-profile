@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+#example {
+  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 20%); /* Grey */
+  color: hsl(0, 0%, 12%); /* Dark Grey */
+  color: hsl(0, 0%, 8%); /* Off Black */
+  color: hsl(75, 94%, 57%); /* Green */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter";
+  font-size: 14px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 0 1rem;
+}
+.card {
+  background-color: hsl(0, 0%, 12%);
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  gap: 1.5rem;
+  text-align: center;
+}
+.card img {
+  width: 100px;
+  border-radius: 50%;
+}
+h2,
+h3 {
+  line-height: 1.5;
+}
+h3 {
+  color: hsl(75, 94%, 57%);
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+}
+li {
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  transition: linear 0.1s;
+}
+ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
+li:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+li:hover a {
+  color: hsl(0, 0%, 12%);
+}
