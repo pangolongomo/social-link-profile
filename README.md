@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Social link profile](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/pangolongomo/social-link-profile)
+- Live Site URL: [Social link profile](https://pangolongomo.github.io/social-link-profile/)
 
 ## My process
 
